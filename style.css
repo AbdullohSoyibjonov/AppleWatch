@@ -1,0 +1,215 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+#header {
+    max-width: 1260px;
+    width: 100%;
+}
+.header-nav {
+    display: flex;
+    justify-content: space-around;
+}
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px; 
+    width: 463px;
+    height: 29.43px;
+}
+.nav-link {
+    text-decoration: none;
+    color:#333333;
+}
+
+.nav-link:hover {
+    color: #666;
+    border-bottom: 2px solid #666;
+}
+
+.nav-link:active {
+    opacity: 0.5;
+}
+.nav-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+}
+.nav-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #333333;
+}
+.nav-input {
+    border: none;
+    border-bottom: 1px solid #333;
+    width: 152px;
+    text-align: center;
+    color: #666;
+    padding-bottom: 6px;
+    font-size: 15px;
+    line-height: 22px;
+    outline: none;
+
+}
+
+.main-hero {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 92px;
+    align-items: center;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+    padding-bottom: 0;
+    height: 89vh;
+    padding-top: 85px;
+    padding-left: 190px;
+}
+
+.hero-text {
+    border-left: 3px solid #888888;
+    padding-left: 40px;
+    width: 450px;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;    
+    color: #777777;
+}
+.button { 
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;    
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #EA625C;
+    color: #FFFFFF;    
+    padding: 12px 40px;
+    margin-top: 30px;
+    border: 2px solid #EA625C;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #EA625C;
+}
+
+.button:active {
+    background-color: #EA625C;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.hero-img {
+    object-fit: contain;
+}
+
+#features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 68px;
+}
+
+.feature-text {
+    font-family: 'Roboto';
+    font-size: 15px;
+    line-height: 24px; 
+    color: #333333;
+    width: 280px;
+    margin-top: 30px;
+}
+.feature {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;    
+    text-transform: uppercase;
+    color: #222222;    
+}
+.box-container {
+    margin-top: 20px;
+    display: flex;
+}
+.box {
+    width: 8px;
+    height: 8px;
+    background: #DDDDDD;    
+}
+.box-2 {
+    margin: 0 10px 0 10px;
+}
+.line-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.line {
+    width: 40px;
+    height: 0px;
+    border: 3px solid #EA625C;    
+}
+.line-text {
+    width: 99px;
+    height: 26px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;    
+    text-transform: uppercase;
+    color: #EA625C;
+    margin-left: 10px;
+}
+
+.intro-caption {
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 60px;
+/* or 60px */
+
+
+color: #000000;
+}
+
+.intro-img {
+    margin-right: 125px;
+}
+.intro {
+    padding-bottom: 70px;
+}
+
+.site-footer {
+    margin-top: 70px;
+    background-image: url('./images/runners\ 1.png');
+    height: 830.19px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer-caption {
+    color: #fff;
+}
+.footer {
+    transform: translate(700px, 270px);
+    display: inline-block;
+}
+
+.footer-text {
+    color: #fff;
+    border-left-color:#fff;
+}
